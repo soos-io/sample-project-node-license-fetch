@@ -1,0 +1,42 @@
+{
+  "name": "@soos-io/sample-project-node-license-fetch",
+  "version": "1.0.0",
+  "description": "SOOS ( https://soos.io ) is an independent software security company, located in Winooski, VT USA, building security software for your team. Used for testing purposes, this tool is an example of fetching software license information from SOOS.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "soos-vulnerability-fetch": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "soos",
+    "sca",
+    "spdx",
+    "license",
+    "@soos-io",
+    "cve",
+    "vulnerability",
+    "vulnerabilities",
+    "licenses",
+    "sbom",
+    "governance",
+    "dast",
+    "open source",
+    "oss"
+  ],
+  "author": "soosintegrations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soos-io/sample-project-node-license-fetch/issues"
+  },
+  "homepage": "https://github.com/soos-io/sample-project-node-license-fetch#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
